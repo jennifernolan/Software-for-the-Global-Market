@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-05 13:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\assignmentapp\templates\base.html:5 .\assignmentapp\templates\base.html:20
+#: .\assignmentapp\templates\base.html:55
+msgid "Cities"
+msgstr "Stadte"
+
+#: .\assignmentapp\templates\base.html:13
+msgid "Dublin"
+msgstr ""
+
+#: .\assignmentapp\templates\base.html:19
+#: .\assignmentapp\templates\base.html:54
+msgid "Home"
+msgstr "Haus"
+
+#: .\assignmentapp\templates\base.html:21
+#: .\assignmentapp\templates\base.html:56
+msgid "Attractions"
+msgstr "Sehenwurdigkeiten"
+
+#: .\assignmentapp\templates\base.html:29
+msgid "My account"
+msgstr "Mein Konto"
+
+#: .\assignmentapp\templates\base.html:30
+msgid "Change password"
+msgstr "Passwort andern"
+
+#: .\assignmentapp\templates\base.html:32
+msgid "Log out"
+msgstr "Ausloggen"
+
+#: .\assignmentapp\templates\base.html:38
+#: .\assignmentapp\templates\login.html:10
+#: .\assignmentapp\templates\login.html:14
+#: .\assignmentapp\templates\signup.html:12
+msgid "Log in"
+msgstr "Einloggen"
+
+#: .\assignmentapp\templates\base.html:39
+#: .\assignmentapp\templates\login.html:18
+msgid "Sign up"
+msgstr "Anmelden"
+
+#: .\assignmentapp\templates\cities.html:6
+msgid "Select language:"
+msgstr "Sprache auswahlen"
+
+#: .\assignmentapp\templates\cities.html:28
+msgid "City Info"
+msgstr "Stadtinformationen"
+
+#: .\assignmentapp\templates\cities.html:29
+msgid "Atrractions"
+msgstr "Sehenwurdigkeiten"
+
+#: .\assignmentapp\templates\cities.html:37
+msgid ""
+"Dublin  is the capital of and largest city in Ireland. Dublin is located in "
+"the province of Leinster on the east coast of Ireland, at the mouth of the "
+"River Liffey and bordered on the South by the Wicklow Mountains. The city "
+"has an urban area population of 1,173,179. The population of the Dublin "
+"Region, as of 2016, was 1,347,359 people, and the population of the Greater "
+"Dublin area was 1,904,806. The name Dublin comes from the Irish word "
+"Dubhlinn, from dubh 'pool', referring to a dark tidal pool. This tidal pool "
+"was located where the River Poddle entered the Liffey, on the site of the "
+"castle gardens at the rear of Dublin Castle."
+msgstr ""
+"Dublin ist die Hauptstadt und grosste Stadt in Irland. Dublin liegt inDie "
+"Provinz Leinster an der Ostkuste von Irland, an der Mundung desRiver Liffey "
+"und grenzt im Suden an die Wicklow Mountains. Die Stadthat eine "
+"Stadtbevolkerung von 1.173.179. Die Bevolkerung von DublinRegion, im Jahr "
+"2016, war 1.347.359 Menschen, und die Bevolkerung des GreaterDublin Flache "
+"war 1.904.806. Der Name Dublin kommt aus dem irischen WortDubhlinn, von Dubh "
+"'Pool', bezieht sich auf ein dunkles Gezeitenbecken. Dieses "
+"Gezeitenbeckenbefand sich dort, wo der Fluss Poddle in die Liffey, auf der "
+"Stelle derSchlossgarten auf der Ruckseite des Dublin Castle."
+
+#: .\assignmentapp\templates\cities.html:39
+msgid "History:"
+msgstr "Geschichte:"
+
+#: .\assignmentapp\templates\cities.html:40
+msgid ""
+"The Easter Rising of 1916, the Irish War of Independence, and the subsequent "
+"Irish Civil War resulted in a significant amount of physical destruction in "
+"central Dublin. The Government of the Irish Free State rebuilt the city "
+"centre and located the new parliament, the Oireachtas, in Leinster House. "
+"Dublin was also victim to the Northern Irish Troubles. During this 30 year "
+"conflict, violence mainly engulfed Northern Ireland. However, the "
+"Provisional IRA drew some support from within the Republic, including from "
+"Dublin."
+msgstr ""
+"Der Osteraufstand von 1916, der irische Unabhangigkeitskrieg und der "
+"darauffolgendeIrischer Burgerkrieg fuhrte zu einer erheblichen Menge an "
+"physischer Zerstorung inzentrales Dublin. Die Regierung des irischen "
+"Freistaats baute die Stadt wieder aufzentrieren und das neue Parlament, die "
+"Oireachtas, in Leinster House.Dublin war auch Opfer der nordirischen "
+"Unruhen. Wahrend dieser 30 JahreKonflikt, Gewalt verschlang hauptsachlich "
+"Nordirland. AllerdingsProvisorische IRA zog Unterstutzung aus der Republik, "
+"einschliesslich vonDublin"
+
+#: .\assignmentapp\templates\cities.html:41
+msgid ""
+"A Loyalist paramilitary group, the Ulster Volunteer Force, bombed the city "
+"during this time notably in an atrocity known as the Dublin and Monaghan "
+"bombings in which 34 people died, mainly in Dublin itself. Since 1997, the "
+"landscape of Dublin has changed. The city was at the forefront of Irelands "
+"economic expansion during the Celtic Tiger period, with private sector and "
+"state development of housing, transport and business. Following an economic "
+"decline during the Great Recession, Dublin has rebounded and as of 2017 has "
+"close to full employment."
+msgstr ""
+"Eine loyalistische paramilitarische Gruppe, die Ulster Volunteer Force, "
+"bombardierte die StadtWahrend dieser Zeit vor allem in einer Graueltat "
+"bekannt als Dublin und MonaghanBombenanschlage, in denen 34 Menschen "
+"starben, vor allem in Dublin selbst. Seit 1997, dieLandschaft von Dublin hat "
+"sich verandert. Die Stadt war an der Spitze von Irlandwirtschaftliche "
+"Expansion wahrend der Zeit des keltischen Tigers, mit privatem Sektor "
+"undStaatsentwicklung von Wohnungen, Transport und Geschaft. Nach einer "
+"wirtschaftlichenRuckgang wahrend der Grossen Rezession, Dublin hat sich "
+"erholt und ab 2017 hatNahe an Vollbeschaftigung."
+
+#: .\assignmentapp\templates\cities.html:43
+msgid "Climate:"
+msgstr "Klima:"
+
+#: .\assignmentapp\templates\cities.html:44
+msgid ""
+"Similar to much of the rest of northwestern Europe, Dublin experiences a "
+"maritime climate with cool summers, mild winters, and a lack of temperature "
+"extremes. The average maximum January temperature is 8.8 C, while the "
+"average maximum July temperature is 20.2 C. On average, the sunniest months "
+"are May and June, while the wettest month is October. Rainfall is evenly "
+"distributed throughout the year. Dublins sheltered location on the east "
+"coast makes it the driest place in Ireland, receiving only about half the "
+"rainfall of the west coast."
+msgstr ""
+"Ahnlich wie im Rest von Nordwesteuropa erlebt Dublin eine maritimes Klima "
+"mit kuhlen Sommern, milden Wintern und einem Mangel an Temperatur Extreme. "
+"Die durchschnittliche maximale Januar-Temperatur ist 8,8 C, wahrend die "
+"durchschnittliche maximale Temperatur im Juli ist 20,2 C. Im Durchschnitt "
+"die sonnigsten Monate sind Mai und Juni, wahrend der feuchteste Monat "
+"Oktober ist. Niederschlag ist gleichmassigverteilt das ganze Jahr. Dublins "
+"geschutzte Lage im OstenDie Kuste macht es zum trockensten Ort in Irland und "
+"erhalt nur etwa die HalfteRegen der Westkuste. "
+
+#: .\assignmentapp\templates\cities.html:46
+msgid "Landmarks:"
+msgstr "Sehenwurdigkeiten:"
+
+#: .\assignmentapp\templates\cities.html:47
+msgid ""
+"Dublin has many landmarks and monuments dating back hundreds of years. One "
+"of the oldest is Dublin Castle, which was first founded as a major defensive "
+"work on the orders of Englands King John in 1204, shortly after the Norman "
+"invasion of Ireland in 1169, when it was commanded that a castle be built "
+"with strong walls and good ditches for the defence of the city, the "
+"administration of justice, and the protection of the Kings treasure. One of "
+"Dublins newest monuments is the Spire of Dublin, or officially titled "
+"'Monument of Light'. It is a 121.2-metre (398 ft) conical spire made of "
+"stainless steel and is located on OConnell Street. It replaces Nelsons "
+"Pillar and is intended to mark Dublins place in the 21st century. The base "
+"of the monument is lit and the top is illuminated to provide a beacon in the "
+"night sky across the city. The Book of Kells, located in the library of "
+"Trinity College, Dublin, is one of the citys most visited sites."
+msgstr ""
+"Dublin hat viele Denkmaler und Denkmaler, die Hunderte von Jahren "
+"zuruckreichen. Der alteste ist Dublin Castle, die zuerst als eine grosse "
+"defensive gegrundet wurde Arbeit auf Befehl von Englands Konig John im Jahre "
+"1204, kurz nach dem Normannen Invasion von Irland im Jahr 1169, als man ihm "
+"den Bau einer Burg befahl mit starken Mauern und guten Graben zur "
+"Verteidigung der Stadt Verwaltung der Gerechtigkeit und der Schutz der "
+"Konige Schatz. Einer von Dublins neueste Denkmaler sind der Spire of Dublin, "
+"oder offiziell betitelt 'Monument of Light'. Es ist eine 121,2 Meter (398 "
+"ft) konische Turmspitze aus Edelstahl und befindet sich in der O'Connell "
+"Street. Es ersetzt Nelsons Saule und soll Dublins Platz im 21. Jahrhundert "
+"markieren. Die Basis Das Denkmal ist beleuchtet und die Spitze ist "
+"beleuchtet, um ein Leuchtfeuer in der Nachthimmel uber die Stadt. Das Buch "
+"von Kells, in der Bibliothek von Trinity College, Dublin, ist eine der am "
+"meisten besuchten Sehenswurdigkeiten der Stadt. "
+
+#: .\assignmentapp\templates\cities.html:49
+msgid ""
+"The Book of Kells is an illustrated manuscript created by Irish monks circa "
+"800 AD. The Ha penny Bridge, an iron footbridge over the River Liffey, is "
+"one of the most photographed sights in Dublin and is considered to be one of "
+"Dublins most iconic landmarks."
+msgstr ""
+"Das Buch von Kells ist ein illustriertes Manuskript, das von irischen "
+"Monchen circa geschaffen wurde 800 AD. Die Ha Penny Bridge, eine eiserne "
+"Fussgangerbrucke uber den Fluss Liffey, ist Einer der am meisten "
+"fotografierten Sehenswurdigkeiten in Dublin und gilt als einer derDublins "
+"die meisten ikonischen Sehenswurdigkeiten. "
+
+#: .\assignmentapp\templates\cities.html:53
+msgid "Guinness Storehouse"
+msgstr "Guiness Lagerhaus"
+
+#: .\assignmentapp\templates\cities.html:55
+msgid "Temple Bar"
+msgstr "Tempelbar"
+
+#: .\assignmentapp\templates\cities.html:57
+msgid "Powerscourt Estate"
+msgstr "Powerscourt Anwesen"
+
+#: .\assignmentapp\templates\cities.html:59
+msgid "Phoenix Park"
+msgstr ""
+
+#: .\assignmentapp\templates\cities.html:61
+msgid "St. Stephens Green Park"
+msgstr ""
+
+#: .\assignmentapp\templates\cities.html:63
+msgid "Dublin Castle"
+msgstr "Dublin Schloss"
+
+#: .\assignmentapp\templates\cities.html:65
+msgid "National Gallery of Ireland"
+msgstr "Nationalgalerie von Irland"
+
+#: .\assignmentapp\templates\cities.html:67
+msgid "Kilmainham Gaol"
+msgstr "Kilmainham Gefangnis"
+
+#: .\assignmentapp\templates\cities.html:69
+msgid "Christ Church Cathedral"
+msgstr "Christus-Kirche-Kathedrale"
+
+#: .\assignmentapp\templates\cities.html:71
+msgid "Jameson Distillery"
+msgstr "Jameson Brennerei"
+
+#: .\assignmentapp\templates\cities.html:79
+msgid "Comments"
+msgstr "Bemerkungen"
+
+#: .\assignmentapp\templates\login.html:23
+msgid "Forget your password?"
+msgstr "Passwort vergessen?"
+
+#: .\assignmentapp\templates\signup.html:9
+msgid "Create an account"
+msgstr "Ein Konto erstellen"
+
+#: .\assignmentapp\templates\signup.html:12
+msgid "Already have an account?"
+msgstr "Haben Sie schon ein Konto?"
+
+#~ msgid "language"
+#~ msgstr "Sprache"
