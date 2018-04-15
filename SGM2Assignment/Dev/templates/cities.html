@@ -17,14 +17,27 @@
 						{% trans "Dublin  is the capital of and largest city in Ireland. Dublin is located in the province of Leinster on the east coast of Ireland, at the mouth of the River Liffey and bordered on the South by the Wicklow Mountains. The city has an urban area population of 1,173,179. The population of the Dublin Region, as of 2016, was 1,347,359 people, and the population of the Greater Dublin area was 1,904,806. The name Dublin comes from the Irish word Dubhlinn, from dubh 'pool', referring to a dark tidal pool. This tidal pool was located where the River Poddle entered the Liffey, on the site of the castle gardens at the rear of Dublin Castle." %}
 						<br>
 						<br>
-					</p>
-					<button type="button" onclick="myFunction(); return false;" align="center">Click for more information</button>
-					<script>
-					function myFunction() {
-						document.getElementById("paragraph").innerHTML += document.getElementById("demo").innerHTML;
-					}
-					</script>
-					<p id="demo" class="parcollapse">
+					
+					{% if LANGUAGE_CODE == 'en' %}
+						</p>
+						<button type="button" onclick="myFunction(); this.onclick=null;" align="center">{%trans "Click for more information" %}</button>
+						<script>
+						function myFunction() {
+							document.getElementById("paragraph").innerHTML += document.getElementById("demo").innerHTML;
+						}
+						</script>
+						<p id="demo" class="parcollapse">
+					{% elif LANGUAGE_CODE == 'de' %}
+						</p>
+						<button type="button" onclick="myFunction(); this.onclick=null;" align="center">{%trans "Click for more information" %}</button>
+						<script>
+						function myFunction() {
+							document.getElementById("paragraph").innerHTML += document.getElementById("demo").innerHTML;
+						}
+						</script>
+						<p id="demo" class="parcollapse">
+					{% endif %}
+					
 						<b><u>{% trans "History:" %}</u></b>
 						<br>
 						{% trans "The Easter Rising of 1916, the Irish War of Independence, and the subsequent Irish Civil War resulted in a significant amount of physical destruction in central Dublin. The Government of the Irish Free State rebuilt the city centre and located the new parliament, the Oireachtas, in Leinster House. Dublin was also victim to the Northern Irish Troubles. During this 30 year conflict, violence mainly engulfed Northern Ireland. However, the Provisional IRA drew some support from within the Republic, including from Dublin." %}
@@ -44,7 +57,7 @@
 						{% trans "The Book of Kells is an illustrated manuscript created by Irish monks circa 800 AD. The Ha penny Bridge, an iron footbridge over the River Liffey, is one of the most photographed sights in Dublin and is considered to be one of Dublins most iconic landmarks." %}
 					</p>	
 				</td>
-				<td>
+				<td id="attractionslist">
 					{% if LANGUAGE_CODE == 'en' %}
 						<ol>
 							<li>{% trans "Guinness Storehouse" %}</li>
@@ -149,15 +162,15 @@
 			<tr>
 				<th>
 					<p class="title">{% trans "Comments" %}</p>
-					<button class="commentbutton"><a href="{% url 'comment' %}">New Comment</a></button>
+					<button class="commentbutton"><a href="{% url 'comment' %}">{% trans "New Comment" %}</a></button>
 				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<table class="comments">
-				<th class="commentheader">Comment</th>
-				<th class="commentheader">Created at</th>
-				<th class="commentheader">Created by</th>
+				<th class="commentheader">{% trans "Comment" %}</th>
+				<th class="commentheader">{% trans "Created at" %}</th>
+				<th class="commentheader">{% trans "Created by" %}</th>
 				{% for comment in comments %}
 					<tr>
 						<td class="commentheader" class="align-middle">

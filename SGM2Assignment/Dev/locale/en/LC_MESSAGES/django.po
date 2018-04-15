@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 15:19+0100\n"
+"POT-Creation-Date: 2018-04-15 13:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,60 +29,56 @@ msgstr ""
 msgid "Portuguese"
 msgstr ""
 
-#: .\templates\base.html:5 .\templates\base.html:20 .\templates\base.html:71
+#: .\templates\base.html:5 .\templates\base.html:26 .\templates\base.html:77
 msgid "Cities"
 msgstr ""
 
-#: .\templates\base.html:13
+#: .\templates\base.html:19
 msgid "Dublin"
 msgstr ""
 
-#: .\templates\base.html:19 .\templates\base.html:70
+#: .\templates\base.html:25 .\templates\base.html:76
 msgid "Home"
 msgstr ""
 
-#: .\templates\base.html:21 .\templates\base.html:72
+#: .\templates\base.html:27 .\templates\base.html:78
 msgid "Attractions"
 msgstr ""
 
-#: .\templates\base.html:29
+#: .\templates\base.html:35
 msgid "My account"
 msgstr ""
 
-#: .\templates\base.html:30
+#: .\templates\base.html:36
 msgid "Change password"
 msgstr ""
 
-#: .\templates\base.html:32
+#: .\templates\base.html:38
 msgid "Log out"
 msgstr ""
 
-#: .\templates\base.html:38 .\templates\login.html:10 .\templates\login.html:14
+#: .\templates\base.html:44 .\templates\login.html:10 .\templates\login.html:14
 #: .\templates\signup.html:12
 msgid "Log in"
 msgstr ""
 
-#: .\templates\base.html:39 .\templates\login.html:18
+#: .\templates\base.html:45 .\templates\login.html:18
 msgid "Sign up"
 msgstr ""
 
-#: .\templates\base.html:48
+#: .\templates\base.html:54
 msgid "Select language:"
 msgstr ""
 
-#: .\templates\base.html:55
-msgid "{{ language.code }}"
-msgstr ""
-
-#: .\templates\cities.html:12
+#: .\templates\cities.html:8
 msgid "City Info"
 msgstr ""
 
-#: .\templates\cities.html:13
+#: .\templates\cities.html:9
 msgid "Atrractions"
 msgstr ""
 
-#: .\templates\cities.html:21
+#: .\templates\cities.html:17
 msgid ""
 "Dublin  is the capital of and largest city in Ireland. Dublin is located in "
 "the province of Leinster on the east coast of Ireland, at the mouth of the "
@@ -95,11 +91,15 @@ msgid ""
 "castle gardens at the rear of Dublin Castle."
 msgstr ""
 
-#: .\templates\cities.html:24
+#: .\templates\cities.html:23 .\templates\cities.html:32
+msgid "Click for more information"
+msgstr ""
+
+#: .\templates\cities.html:41
 msgid "History:"
 msgstr ""
 
-#: .\templates\cities.html:26
+#: .\templates\cities.html:43
 msgid ""
 "The Easter Rising of 1916, the Irish War of Independence, and the subsequent "
 "Irish Civil War resulted in a significant amount of physical destruction in "
@@ -111,7 +111,7 @@ msgid ""
 "Dublin."
 msgstr ""
 
-#: .\templates\cities.html:28
+#: .\templates\cities.html:45
 msgid ""
 "A Loyalist paramilitary group, the Ulster Volunteer Force, bombed the city "
 "during this time notably in an atrocity known as the Dublin and Monaghan "
@@ -123,11 +123,11 @@ msgid ""
 "close to full employment."
 msgstr ""
 
-#: .\templates\cities.html:31
+#: .\templates\cities.html:48
 msgid "Climate:"
 msgstr ""
 
-#: .\templates\cities.html:33
+#: .\templates\cities.html:50
 msgid ""
 "Similar to much of the rest of northwestern Europe, Dublin experiences a "
 "maritime climate with cool summers, mild winters, and a lack of temperature "
@@ -139,11 +139,11 @@ msgid ""
 "rainfall of the west coast."
 msgstr ""
 
-#: .\templates\cities.html:36
+#: .\templates\cities.html:53
 msgid "Landmarks:"
 msgstr ""
 
-#: .\templates\cities.html:38
+#: .\templates\cities.html:55
 msgid ""
 "Dublin has many landmarks and monuments dating back hundreds of years. One "
 "of the oldest is Dublin Castle, which was first founded as a major defensive "
@@ -160,7 +160,7 @@ msgid ""
 "Trinity College, Dublin, is one of the citys most visited sites."
 msgstr ""
 
-#: .\templates\cities.html:40
+#: .\templates\cities.html:57
 msgid ""
 "The Book of Kells is an illustrated manuscript created by Irish monks circa "
 "800 AD. The Ha penny Bridge, an iron footbridge over the River Liffey, is "
@@ -168,73 +168,89 @@ msgid ""
 "Dublins most iconic landmarks."
 msgstr ""
 
-#: .\templates\cities.html:45 .\templates\cities.html:95
+#: .\templates\cities.html:63 .\templates\cities.html:133
 msgid "Guinness Storehouse"
 msgstr ""
 
-#: .\templates\cities.html:47
+#: .\templates\cities.html:66
 msgid "Temple Bar"
 msgstr ""
 
-#: .\templates\cities.html:49 .\templates\cities.html:97
+#: .\templates\cities.html:69 .\templates\cities.html:136
 msgid "Jameson Distillery"
 msgstr ""
 
-#: .\templates\cities.html:51 .\templates\cities.html:101
+#: .\templates\cities.html:72 .\templates\cities.html:142
 msgid "Trinity College"
 msgstr ""
 
-#: .\templates\cities.html:53 .\templates\cities.html:82
+#: .\templates\cities.html:75 .\templates\cities.html:116
 msgid "Powerscourt Estate"
 msgstr ""
 
-#: .\templates\cities.html:55 .\templates\cities.html:84
-#: .\templates\cities.html:99
+#: .\templates\cities.html:78 .\templates\cities.html:119
+#: .\templates\cities.html:139
 msgid "Kilmainham Gaol"
 msgstr ""
 
-#: .\templates\cities.html:57 .\templates\cities.html:76
+#: .\templates\cities.html:81 .\templates\cities.html:107
 msgid "St. Stephens Green Park"
 msgstr ""
 
-#: .\templates\cities.html:59 .\templates\cities.html:78
+#: .\templates\cities.html:84 .\templates\cities.html:110
 msgid "Phoenix Park"
 msgstr ""
 
-#: .\templates\cities.html:61 .\templates\cities.html:80
+#: .\templates\cities.html:87 .\templates\cities.html:113
 msgid "Dublin Castle"
 msgstr ""
 
-#: .\templates\cities.html:63 .\templates\cities.html:86
+#: .\templates\cities.html:90 .\templates\cities.html:122
 msgid "Dublin Zoo"
 msgstr ""
 
-#: .\templates\cities.html:68 .\templates\cities.html:91
+#: .\templates\cities.html:95 .\templates\cities.html:127
 msgid "The Viking Splash"
 msgstr ""
 
-#: .\templates\cities.html:70 .\templates\cities.html:103
+#: .\templates\cities.html:98 .\templates\cities.html:145
 msgid "Croke Park"
 msgstr ""
 
-#: .\templates\cities.html:72 .\templates\cities.html:109
+#: .\templates\cities.html:101 .\templates\cities.html:154
 msgid "Airfield Dundrum"
 msgstr ""
 
-#: .\templates\cities.html:74 .\templates\cities.html:105
+#: .\templates\cities.html:104 .\templates\cities.html:148
 msgid "The Little Museum of Dublin"
 msgstr ""
 
-#: .\templates\cities.html:93
+#: .\templates\cities.html:130
 msgid "National Gallery of Ireland"
 msgstr ""
 
-#: .\templates\cities.html:107
+#: .\templates\cities.html:151
 msgid "The National Museum of Ireland"
 msgstr ""
 
-#: .\templates\cities.html:119
+#: .\templates\cities.html:164
 msgid "Comments"
+msgstr ""
+
+#: .\templates\cities.html:165
+msgid "New Comment"
+msgstr ""
+
+#: .\templates\cities.html:171
+msgid "Comment"
+msgstr ""
+
+#: .\templates\cities.html:172
+msgid "Created at"
+msgstr ""
+
+#: .\templates\cities.html:173
+msgid "Created by"
 msgstr ""
 
 #: .\templates\login.html:23

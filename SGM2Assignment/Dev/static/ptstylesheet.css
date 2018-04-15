@@ -106,6 +106,10 @@ ol {
 	height: 50%;
 }
 
+#attractionslist {
+	width: 30%;
+}
+
 #attractions {
 	width: 80%;
 	height: 5%;
@@ -153,15 +157,4 @@ footer {
 
 .collapse:hover .dropdown-menu{
 	display: block;
-}
-
-#demo .parcollapse {
-	float: right;
-	position: relative;
-	display: inline-block;
-}
-
-.parcollapse {
-	display: none;
-	position: absolute;
 }
