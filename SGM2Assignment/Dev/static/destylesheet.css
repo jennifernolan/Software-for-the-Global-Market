@@ -165,6 +165,12 @@ footer {
 	display: inline-block;
 }
 
+#attractdemo .parcollapse {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
 .parcollapse {
 	display: none;
 	position: absolute;

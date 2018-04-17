@@ -59,7 +59,7 @@
 				</td>
 				<td id="attractionslist">
 					{% if LANGUAGE_CODE == 'en' %}
-						<ol>
+						<ol id="attractlist">
 							<li>{% trans "Guinness Storehouse" %}</li>
 							<img id="attractions" src="../static/img/GuinnessStorehouse.jpg" alt="Guinness Storehouse" />
 							<br>
@@ -75,6 +75,14 @@
 							<li>{% trans "Powerscourt Estate" %}</li>
 							<img id="attractions" src="../static/img/Powerscourt.jpg" alt="Powerscourt Estate" />
 							<br>
+						</ol>
+						<button type="button" onclick="myFunction2(); this.onclick=null;" align="center">{%trans "Click for more attractions" %}</button>
+						<script>
+						function myFunction2() {
+							document.getElementById("attractlist").innerHTML += document.getElementById("attractdemo").innerHTML;
+						}
+						</script>
+						<ol id="attractdemo" class="parcollapse">
 							<li>{% trans "Kilmainham Gaol" %}</li>
 							<img id="attractions" src="../static/img/KilmainhamGaol.jpg" alt="Kilmainham Gaol" />
 							<br>
@@ -91,7 +99,7 @@
 							<img id="attractions" src="../static/img/dublinzoo.jpg" alt="Dublin Zoo" />
 						</ol>
 					{% elif LANGUAGE_CODE == 'de' %}
-						<ol>
+						<ol id="attractlist">
 							<li>{% trans "The Viking Splash" %}</li>
 							<img id="attractions" src="../static/img/thevikingsplash.jpg" alt="The Viking Splash" />
 							<br>
@@ -107,6 +115,14 @@
 							<li>{% trans "St. Stephens Green Park" %}</li>
 							<img id="attractions" src="../static/img/StStephensGreenPark.jpg" alt="St Stephens Green Park" />
 							<br>
+						</ol>
+						<button type="button" onclick="myFunction2(); this.onclick=null;" align="center">{%trans "Click for more attractions" %}</button>
+						<script>
+						function myFunction2() {
+							document.getElementById("attractlist").innerHTML += document.getElementById("attractdemo").innerHTML;
+						}
+						</script>
+						<ol id="attractdemo" class="parcollapse">
 							<li>{% trans "Phoenix Park" %}</li>
 							<img id="attractions" src="../static/img/PhoenixPark.jpg" alt="Phoenix Park" />
 							<br>

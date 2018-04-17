@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-15 13:00+0100\n"
+"POT-Creation-Date: 2018-04-17 16:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,7 +175,7 @@ msgid ""
 "Dublins most iconic landmarks."
 msgstr ""
 
-#: .\templates\cities.html:63 .\templates\cities.html:133
+#: .\templates\cities.html:63 .\templates\cities.html:149
 msgid "Guinness Storehouse"
 msgstr ""
 
@@ -183,80 +183,84 @@ msgstr ""
 msgid "Temple Bar"
 msgstr ""
 
-#: .\templates\cities.html:69 .\templates\cities.html:136
+#: .\templates\cities.html:69 .\templates\cities.html:152
 msgid "Jameson Distillery"
 msgstr ""
 
-#: .\templates\cities.html:72 .\templates\cities.html:142
+#: .\templates\cities.html:72 .\templates\cities.html:158
 msgid "Trinity College"
 msgstr ""
 
-#: .\templates\cities.html:75 .\templates\cities.html:116
+#: .\templates\cities.html:75 .\templates\cities.html:132
 msgid "Powerscourt Estate"
 msgstr ""
 
-#: .\templates\cities.html:78 .\templates\cities.html:119
-#: .\templates\cities.html:139
+#: .\templates\cities.html:79 .\templates\cities.html:119
+msgid "Click for more attractions"
+msgstr "Klicken Sie fur weitere Attraktionen"
+
+#: .\templates\cities.html:86 .\templates\cities.html:135
+#: .\templates\cities.html:155
 msgid "Kilmainham Gaol"
 msgstr ""
 
-#: .\templates\cities.html:81 .\templates\cities.html:107
+#: .\templates\cities.html:89 .\templates\cities.html:115
 msgid "St. Stephens Green Park"
 msgstr ""
 
-#: .\templates\cities.html:84 .\templates\cities.html:110
+#: .\templates\cities.html:92 .\templates\cities.html:126
 msgid "Phoenix Park"
 msgstr ""
 
-#: .\templates\cities.html:87 .\templates\cities.html:113
+#: .\templates\cities.html:95 .\templates\cities.html:129
 msgid "Dublin Castle"
 msgstr ""
 
-#: .\templates\cities.html:90 .\templates\cities.html:122
+#: .\templates\cities.html:98 .\templates\cities.html:138
 msgid "Dublin Zoo"
 msgstr ""
 
-#: .\templates\cities.html:95 .\templates\cities.html:127
+#: .\templates\cities.html:103 .\templates\cities.html:143
 msgid "The Viking Splash"
 msgstr ""
 
-#: .\templates\cities.html:98 .\templates\cities.html:145
+#: .\templates\cities.html:106 .\templates\cities.html:161
 msgid "Croke Park"
 msgstr ""
 
-#: .\templates\cities.html:101 .\templates\cities.html:154
+#: .\templates\cities.html:109 .\templates\cities.html:170
 msgid "Airfield Dundrum"
 msgstr ""
 
-#: .\templates\cities.html:104 .\templates\cities.html:148
+#: .\templates\cities.html:112 .\templates\cities.html:164
 msgid "The Little Museum of Dublin"
 msgstr "Das kleine museum dublin"
 
-#: .\templates\cities.html:130
+#: .\templates\cities.html:146
 msgid "National Gallery of Ireland"
 msgstr ""
 
-#: .\templates\cities.html:151
+#: .\templates\cities.html:167
 msgid "The National Museum of Ireland"
 msgstr "Nationalmuseum von Irland"
 
-#: .\templates\cities.html:164
+#: .\templates\cities.html:180
 msgid "Comments"
 msgstr "Bemerkungen"
 
-#: .\templates\cities.html:165
+#: .\templates\cities.html:181
 msgid "New Comment"
 msgstr "Neuer Bemerkung"
 
-#: .\templates\cities.html:171
+#: .\templates\cities.html:187
 msgid "Comment"
 msgstr "Bemerkung"
 
-#: .\templates\cities.html:172
+#: .\templates\cities.html:188
 msgid "Created at"
 msgstr "Hergestellt in"
 
-#: .\templates\cities.html:173
+#: .\templates\cities.html:189
 msgid "Created by"
 msgstr "Erstellt von"
 
